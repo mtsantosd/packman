@@ -1,5 +1,5 @@
 namePrefix: prd-
-commonLabels:
+labels:
   env: production
 resources:
 - ../../base
