@@ -2,5 +2,6 @@
    kind: Deployment
    metadata:
      name: the-deployment
+     namespace: stg-pacman
    spec:
      replicas: 1
