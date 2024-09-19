@@ -1,3 +1,4 @@
+namespace: prod-pacman
 namePrefix: prd-
 resources:
 - ../../base
