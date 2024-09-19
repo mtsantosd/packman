@@ -17,3 +17,6 @@ spec:
         image: nginx:1.27
         ports:
         - containerPort: 80
+        volumeMounts:
+        - name: nginx-index-config
+          mountPath: /usr/share/nginx/html
