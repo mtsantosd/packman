@@ -1,6 +1,4 @@
 namePrefix: stg-
-labels:
-  env: staging
 resources:
 - ../../base
 patches:
