@@ -1,6 +1,4 @@
 namePrefix: prd-
-labels:
-  env: production
 resources:
 - ../../base
 patches:
