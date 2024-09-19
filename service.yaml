@@ -4,9 +4,11 @@ metadata:
   name: nginx
   namespace: pacman
   labels:
-    run: nginx
+    app: nginx
 spec:
   type: LoadBalancer
   ports:
   - port: 80
     protocol: TCP
+  selector:
+    app: nginx
