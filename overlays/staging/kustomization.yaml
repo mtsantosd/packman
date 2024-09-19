@@ -1,5 +1,5 @@
 namePrefix: stg-
-commonLabels:
+labels:
   env: staging
 resources:
 - ../../base
