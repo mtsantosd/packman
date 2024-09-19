@@ -2,5 +2,6 @@
    kind: Deployment
    metadata:
      name: the-deployment
+     namespace: prod-pacman
    spec:
      replicas: 10
