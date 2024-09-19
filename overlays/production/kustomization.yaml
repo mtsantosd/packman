@@ -1,6 +1,7 @@
-   commonLabels:
-    env: production
-   bases:
-   - ../../base
-   patches:
-   - replica_count.yaml
+namePrefix: prod-
+commonLabels:
+  env: production
+bases:
+- ../../base
+patches:
+- replica_count.yaml
