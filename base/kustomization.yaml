@@ -1,5 +1,3 @@
-commonLabels:
-  app: nginx
 resources:
 - deployment.yaml
 - service.yaml
