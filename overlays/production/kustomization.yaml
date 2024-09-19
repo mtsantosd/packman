@@ -2,6 +2,7 @@ namespace: prd-pacman
 namePrefix: prd-
 resources:
 - ../../base
+- nginx-config.yaml
 patches:
  - target:
       kind: Deployment
