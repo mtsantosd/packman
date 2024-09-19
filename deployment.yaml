@@ -3,13 +3,11 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   namespace: pacman
-  labels:
-    app: nginx
 spec:
-  replicas: 2
   selector:
     matchLabels:
       app: nginx
+  replicas: 2
   template:
     metadata:
       labels:
