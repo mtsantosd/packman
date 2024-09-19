@@ -1,7 +1,6 @@
-  apiVersion: apps/v1
-   kind: Deployment
-   metadata:
-     name: the-deployment
-     namespace: prod-pacman
-   spec:
-     replicas: 10
+- op: add
+  path: "/spec/replicas"
+  value: 10
+- op: add
+  path: "/metadata/namespace"
+  value: prod-pacman
