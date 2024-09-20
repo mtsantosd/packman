@@ -19,7 +19,7 @@ spec:
         - containerPort: 80
         volumeMounts:
         - name: nginx-config
-          mountPath: /usr/share/nginx/html
+          mountPath: /usr/share/nginx/html/
     volumes:
     - configMap:
         name: stg-nginx-config
