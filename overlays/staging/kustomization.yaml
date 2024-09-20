@@ -7,6 +7,6 @@ patches:
       kind: Deployment
    path: adjustiments-patch.yaml
 configMapGenerator:
-- name: stg-nginx-config
+- name: nginx-config
   files:
   - index.html
