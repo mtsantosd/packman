@@ -23,4 +23,4 @@ spec:
     volumes:
     - name: nginx-config
       configMap:
-        name: stg-nginx-config-2kdhmt875t
+        name: stg-nginx-config-7c699k5kmb
