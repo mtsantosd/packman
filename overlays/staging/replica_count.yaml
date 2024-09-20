@@ -10,3 +10,4 @@
     name: volume
     configMap:
        name: stg-nginx-config
+       path: index.html
