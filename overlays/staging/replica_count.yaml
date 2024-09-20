@@ -7,7 +7,7 @@
 - op: add
   path: "/spec/template/spec/volumes/-"
   value:
-    name: volume
+    name: volumes
     configMap:
        name: stg-nginx-config
        path: index.html
