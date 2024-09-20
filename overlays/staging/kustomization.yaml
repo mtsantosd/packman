@@ -2,8 +2,12 @@ namespace: stg-pacman
 namePrefix: stg-
 resources:
 - ../../base
-- nginx-config.yaml
+#- nginx-config.yaml
 patches:
  - target:
       kind: Deployment
    path: adjustiments-patch.yaml
+configMapGenerator:
+- name: nginx-config
+  files:
+  - index.html
