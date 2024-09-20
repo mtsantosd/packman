@@ -2,6 +2,7 @@ namespace: stg-pacman
 namePrefix: stg-
 resources:
 - ../../base
+- deployment.yaml
 - nginx-config.yaml
 patches:
  - target:
