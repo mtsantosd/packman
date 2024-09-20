@@ -9,5 +9,5 @@
   value:
     name: nginx-index-config
     configMap:
-       name: stg-nginx-config
+       name: nginx-index-config
        path: index.html
