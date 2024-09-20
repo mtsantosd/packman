@@ -10,4 +10,6 @@
     name: nginx-index-config
     configMap:
        name: stg-nginx-config
+       items:
+       - key: body
        path: index.html
