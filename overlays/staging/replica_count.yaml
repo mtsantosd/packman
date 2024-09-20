@@ -4,10 +4,3 @@
 - op: add
   path: /metadata/namespace
   value: stg-pacman
-- op: add
-  path: "/spec/template/spec/volumes/-"
-  value:
-    name: nginx-index-config
-    configMap:
-       name: nginx-index-config
-       path: index.html
