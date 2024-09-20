@@ -21,6 +21,5 @@ spec:
         - name: nginx-config
           mountPath: /usr/share/nginx/html
     volumes:
-    - name: nginx-config
     - configMap:
-        name: nginx-config
+        name: stg-nginx-config
