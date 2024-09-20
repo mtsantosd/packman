@@ -6,4 +6,4 @@ resources:
 patches:
  - target:
       kind: Deployment
-   path: replica_count.yaml
+   path: adjustiments-patch.yaml
