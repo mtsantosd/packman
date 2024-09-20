@@ -7,9 +7,6 @@
 - op: add
   path: /spec/template/spec/volumes/-
   value:
-    name: nginx-index-config
+    name: volume
     configMap:
        name: stg-nginx-config
-       items:
-       - key: body
-       path: index.html
